@@ -138,10 +138,10 @@ video {
     height: 100%; /* Alto total de la página */
 }
 .containerdeclaracion {
-    background-image: url('manos.jpg'); /* Ruta de la imagen de fondo */
+    
     background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
     background-position: center; /* Posición centrada de la imagen de fondo */
-    background-color: rgba(238, 6, 188, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     border-radius: 10px;
     max-width: 800px;
