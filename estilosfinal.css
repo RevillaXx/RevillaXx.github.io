@@ -74,7 +74,7 @@ h2 {
     }
     
     .border{
-        color: rgb(243, 8, 231);
+        color: rgb(250, 3, 147);
         text-shadow: 
             -4px -4px 0 rgb(0, 0, 0),
             4px -4px 0 rgb(0, 0, 0),
@@ -84,7 +84,7 @@ h2 {
     }
     
     .wave{
-        color: #e90979;
+        color: #f384bc;
         animation: shift 3s ease-in-out infinite;
     }
     
@@ -98,12 +98,11 @@ h2 {
     
     }
 
-
+/* mensaje con animacion ola */
 .containerola{
     margin-left: 50px;
-    margin-top: 640px;
+    margin-top: 340px;
 }
-
 
 
     
