@@ -11,7 +11,7 @@ body{
     padding: 0;
     line-height: 1.6;
     background: url(rosa2.jfif) fixed;
-    min-height: 100vh;
+    min-height: auto;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
