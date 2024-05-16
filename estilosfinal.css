@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
@@ -276,4 +277,45 @@ strong {
 .containercardliss{
     margin-left: 20px;
     margin-top: 200px;
+}
+
+
+/* Media Queries para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 16px;
+    }
+
+    .menu-horizontal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-horizontal > li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .containerola {
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 12vw; /* Ajusta el tamaño de fuente para que sea relativo al ancho de la pantalla */
+    }
+
+    .flower-frame {
+        padding: 10px;
+    }
+
+    .cardliss {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .containercardliss {
+        margin: 10px auto;
+        padding: 10px;
+    }
 }
