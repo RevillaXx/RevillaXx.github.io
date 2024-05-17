@@ -183,16 +183,16 @@ strong {
 
 /* tarjetas */
 
-.cardliss{
-    position: absolute;
-    width: 820px;
-    height: 820px;
-    margin-left: 600px;
-    display: flex ;
+
+.cardliss {
+    display: flex;
     flex-wrap: wrap;
-    align-items: center center;
     justify-content: center;
-}
+    align-items: center;
+    width: 100%;
+    max-width: 820px;
+    margin: 20px auto;
+    padding: 20px;
 .cardliss .face{
     position: absolute;
     width: 100%;
