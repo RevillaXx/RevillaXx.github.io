@@ -296,6 +296,11 @@ strong {
         margin-top: 100px;
 
     }
+ .cardliss {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
 
     h2 {
         font-size: 12vw; /* Ajusta el tamaño de fuente para que sea relativo al ancho de la pantalla */
