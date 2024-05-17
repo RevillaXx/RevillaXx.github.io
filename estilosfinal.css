@@ -184,14 +184,15 @@ strong {
 /* tarjetas */
 
 
-.cardliss {
-    display: flex;
+.cardliss{
+    position: absolute;
+    width: 820px;
+    height: 820px;
+    
+    display: flex ;
     flex-wrap: wrap;
+    align-items: center center;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 20px auto;
-    padding: 20px;
 }
 
 
