@@ -309,14 +309,7 @@ strong {
         padding: 10px;
     }
 
-    .cardliss {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
 
-    .containercardliss {
-        margin: 10px auto;
-        padding: 10px;
-    }
+
+
 }
