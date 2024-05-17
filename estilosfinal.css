@@ -292,11 +292,11 @@ strong {
 
     .containerola {
         margin-top: 100px;
-	position: absolute;
+
     }
 
     h2 {
-        font-size: 10vw; /* Ajusta el tamaño de fuente para que sea relativo al ancho de la pantalla */
+        font-size: 12vw; /* Ajusta el tamaño de fuente para que sea relativo al ancho de la pantalla */
     }
 
     .flower-frame {
