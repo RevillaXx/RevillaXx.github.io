@@ -191,7 +191,7 @@ strong {
     
     display: flex ;
     flex-wrap: wrap;
-    align-items: center center;
+    align-items: center;
     justify-content: center;
 }
 
