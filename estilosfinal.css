@@ -193,15 +193,7 @@ strong {
     margin: 20px auto;
     padding: 20px;
 }
-.cardliss .face{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
-}
+
 
 .cardliss .face{
     position: absolute;
