@@ -295,7 +295,7 @@ strong {
     }
 
     h2 {
-        font-size: 12vw; /* Ajusta el tamaño de fuente para que sea relativo al ancho de la pantalla */
+        font-size: 10vw; /* Ajusta el tamaño de fuente para que sea relativo al ancho de la pantalla */
     }
 
     .flower-frame {
