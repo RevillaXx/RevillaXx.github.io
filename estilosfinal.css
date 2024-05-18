@@ -307,6 +307,7 @@ strong {
 
 						/* Estilos de video */
 .video-container2 {
+    margin-top: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -323,7 +324,7 @@ strong {
 }
 
 .video-box2 video {
-    width: 100%;
+    
     border-radius: 10px;
 }
 
