@@ -274,7 +274,12 @@ strong {
 }
 
 
-/* Media Queries para pantallas pequeñas */
+					/* Media Queries para pantallas pequeñas */
+@media (max-width: 1024px) {
+    .video-box {
+        width: calc(50% - 40px); /* Dos videos por fila con espacio de 20px entre ellos */
+    }
+}
 @media only screen and (max-width: 820px) {
     nav {
         font-size: 16px;
@@ -299,6 +304,28 @@ strong {
     .flower-frame {
         padding: 10px;
     }
+
+						/* Estilos de video */
+.video-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-box2 {
+    width: calc(33.333% - 40px); /* Tres videos por fila con espacio de 20px entre ellos */
+    background: rgba(233, 7, 146, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.video-box2 video {
+    width: 100%;
+    border-radius: 10px;
+}
 
 
 
