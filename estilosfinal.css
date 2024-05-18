@@ -326,6 +326,38 @@ strong {
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 	}
+	.video-container3 {
+    margin-top: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+	}
+
+.video-box3 {
+    width: calc(50% - 40px); /* dos videos por fila con espacio de 20px entre ellos */
+    background: rgba(233, 7, 146, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	}
+	.video-container4 {
+    margin-top: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+	}
+
+.video-box4 {
+    width: calc(50% - 40px); /* dos videos por fila con espacio de 20px entre ellos */
+    background: rgba(233, 7, 146, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	}
 }
 
 
