@@ -276,7 +276,7 @@ strong {
 
 					/* Media Queries para pantallas pequeñas */
 @media (max-width: 1024px) {
-    .video-box {
+    .video-box2 {
         width: calc(50% - 40px); /* Dos videos por fila con espacio de 20px entre ellos */
     }
 }
