@@ -354,7 +354,7 @@ strong {
 .video-box4 {
     width: calc(50% - 140px); /* dos videos por fila con espacio de 20px entre ellos */
     background: rgba(233, 7, 146, 0.8);
-    padding: 10px;
+    padding: 40px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 	}
