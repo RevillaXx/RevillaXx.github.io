@@ -309,68 +309,39 @@ strong {
         padding: 10px;
     }
 /* Estilos de video */
-			.video-box2 video {
-    width: 100%;
-    border-radius: 10px;
-}			
 .video-container2 {
-    margin-top: 130px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
-	}
+}
 
 .video-box2 {
-    width: calc(50% - 140px); /* dos videos por fila con espacio de 20px entre ellos */
+    width: calc(33.333% - 40px); /* Tres videos por fila con espacio de 20px entre ellos */
     background: rgba(233, 7, 146, 0.8);
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	}
-	
-	.video-container3 {
-    margin-top: 230px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-	}
-	.video-box3 video {
+}
+
+.video-box2 iframe {
     width: 100%;
     border-radius: 10px;
 }
 
-.video-box3 {
-    width: calc(50% - 140px); /* dos videos por fila con espacio de 20px entre ellos */
-    background: rgba(233, 7, 146, 0.8);
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	}
-	.video-container4 {
-    margin-top: 330px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-	}
-.video-box4 video {
-    width: 100%;
-    border-radius: 10px;
-}
-.video-box4 {
-    width: calc(50% - 140px); /* dos videos por fila con espacio de 20px entre ellos */
-    background: rgba(233, 7, 146, 0.8);
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	}
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 1024px) {
+    .video-box2 {
+        width: calc(50% - 30px); /* Dos videos por fila con espacio de 20px entre ellos */
+    }
 }
 
+@media (max-width: 600px) {
+    .video-box2 {
+        width: calc(100% - 20px); /* Un video por fila */
+    }
 
 
 
