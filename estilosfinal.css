@@ -316,6 +316,7 @@ strong {
 }
 
 .video-box2 {
+     margin-top: 130px;
     width: calc(33.333% - 40px); /* Tres videos por fila con espacio de 20px entre ellos */
     background: rgba(233, 7, 146, 0.8);
     padding: 10px;
@@ -323,10 +324,6 @@ strong {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.video-box2 video {
-    
-    border-radius: 10px;
-}
 
 
 
