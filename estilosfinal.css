@@ -328,6 +328,7 @@ strong {
 
 .video-box2 iframe {
     width: 100%;
+    height: 315px; /* Altura fija para los iframes */
     border-radius: 10px;
 }
 
