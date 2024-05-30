@@ -184,6 +184,59 @@ strong {
 /* tarjetas */
 
 
+/* css declaracionindex */ 
+.page-container2 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100%; /* Alto total de la página */
+    margin-top: 540px;
+}
+.containerdeclaracion2 {
+    
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Posición centrada de la imagen de fondo */
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    display: flex; /* Para alinear el contenido verticalmente */
+    justify-content: center; /* Para alinear el contenido horizontalmente */
+    align-items: center; /* Para alinear el contenido verticalmente */
+    backdrop-filter: blur(1px); /* Aplica un filtro de desenfoque a la imagen de fondo */
+    opacity: 0.8; /* Opacidad de la imagen de fondo difuminada */
+    z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+}
+
+
+
+.content2 {
+    text-align: center;
+    opacity: 1.5;
+}
+
+h1 {
+    font-size: 28px;
+    color: #faf9f9;
+    
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #f740de;
+   
+}
+
+strong {
+    font-weight: bold;
+    color: #f5f3f5;
+    
+}
+
+/* tarjetas */
+
 .cardliss{
     position: absolute;
     height: 820px;
